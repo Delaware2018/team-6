@@ -77,24 +77,24 @@ gulp.task('css:minify', ['css:compile'], function() {
 gulp.task('css', ['css:compile', 'css:minify']);
 
 // Minify JavaScript
-gulp.task('js:minify', function() {
-  return gulp.src([
-      './js/*.js',
-      '!./js/*.min.js'
-    ])
-    .pipe(uglify())
-    .pipe(rename({
-      suffix: '.min'
-    }))
-    .pipe(header(banner, {
-      pkg: pkg
-    }))
-    .pipe(gulp.dest('./js'))
-    .pipe(browserSync.stream());
-});
+// gulp.task('js:minify', function() {
+//   return gulp.src([
+//       './js/*.js',
+//       '!./js/*.min.js'
+//     ])
+//     .pipe(uglify())
+//     .pipe(rename({
+//       suffix: '.min'
+//     }))
+//     .pipe(header(banner, {
+//       pkg: pkg
+//     }))
+//     .pipe(gulp.dest('./js'))
+//     .pipe(browserSync.stream());
+// });
 
 // JS
-gulp.task('js', ['js:minify']);
+gulp.task('js', [/*'js:minify'*/]);
 
 // Default task
 gulp.task('default', ['css', 'js', 'vendor']);
