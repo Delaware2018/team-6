@@ -20,16 +20,14 @@ app.get('/', (req, res) => res.send('Hello World!'))
 
 app.post('/register', async (req, res) => {
 
-  const jsonObj = req.body
+  const jsonObj = req.body;
 
-  var line = jsonObj.first + "," + jsonObj.last + "," + jsonObj.email + "," + jsonObj.password + "\n";
+  var line = jsonObj.name + "," + jsonObj.email + "," + jsonObj.phone + "," + jsonObj.password + "\n";
 
-  fs.appendFile('Mentors.csv', line, function (err) {
+  fs.appendFile('db/Mentor.csv', line, function (err) {
     if (err) throw err;
     console.log('Saved!');
   });
-
-  console.log(jsonObj.first)
 
   res.send(jsonObj);
 });
@@ -41,7 +39,17 @@ app.post('/apply', async (req, res) => {
     console.log(jsonObj.first);
 
     res.send(jsonObj);
-    //const file = fs.readFileSync('', )
+
+
+    var line = jsonObj.name + "," + jsonObj.email + "," + jsonObj.phone + "," + jsonObj.city + "," +
+        jsonObj.occupation + "," + jsonObj.interests + "," + jsonObj.alma_mater + "," + jsonObj.involvement + "," +
+        jsonObj.additional + "\n";
+
+    fs.appendFile('db/Mentors_app.csv', line, function (err) {
+        if (err) throw err;
+        console.log('Saved!');
+    });
+
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))

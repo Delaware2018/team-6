@@ -12,6 +12,11 @@ $(function() {
       var email = $("input#email").val();
       var phone = $("input#phone").val();
       var city = $("input#city").val();
+      var occupation = $("input#occupation").val();
+      var interests = $("input#interests").val();
+      var alma_mater = $("input#alma_mater").val();
+      var involvement = $("input#involvement").val();
+      var additional = $("input#additional").val();
 
       console.log(event);
 
@@ -20,8 +25,13 @@ $(function() {
       data.email = email;
       data.phone = phone;
       data.city = city;
+      data.occupation = occupation;
+      data.interests = interests;
+      data.alma_mater = alma_mater;
+      data.involvement = involvement;
+      data.additional = additional;
 
-      $this = $("#sendMessageButton");
+      $this = $("#applyButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       $.ajax({
         url: "http://localhost:3001/apply",
