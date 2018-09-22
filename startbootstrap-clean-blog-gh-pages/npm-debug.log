@@ -1,0 +1,720 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'update' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ '@fortawesome/fontawesome-free', '5.3.1' ]
+5 verbose cache add name="@fortawesome/fontawesome-free" spec="5.3.1" args=["@fortawesome/fontawesome-free","5.3.1"]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: '5.3.1',
+6 verbose parsed url   path: '5.3.1',
+6 verbose parsed url   href: '5.3.1' }
+7 verbose addNamed [ '@fortawesome/fontawesome-free', '5.3.1' ]
+8 verbose addNamed [ '5.3.1', '5.3.1' ]
+9 verbose cache add [ 'bootstrap', '4.1.3' ]
+10 verbose cache add name="bootstrap" spec="4.1.3" args=["bootstrap","4.1.3"]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: '4.1.3',
+11 verbose parsed url   path: '4.1.3',
+11 verbose parsed url   href: '4.1.3' }
+12 verbose addNamed [ 'bootstrap', '4.1.3' ]
+13 verbose addNamed [ '4.1.3', '4.1.3' ]
+14 verbose cache add [ 'jquery', '3.3.1' ]
+15 verbose cache add name="jquery" spec="3.3.1" args=["jquery","3.3.1"]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '3.3.1',
+16 verbose parsed url   path: '3.3.1',
+16 verbose parsed url   href: '3.3.1' }
+17 verbose addNamed [ 'jquery', '3.3.1' ]
+18 verbose addNamed [ '3.3.1', '3.3.1' ]
+19 silly lockFile cbeb94d9-rtawesome-fontawesome-free-5-3-1 @fortawesome/fontawesome-free@5.3.1
+20 verbose lock @fortawesome/fontawesome-free@5.3.1 /home/nlin/.npm/cbeb94d9-rtawesome-fontawesome-free-5-3-1.lock
+21 silly lockFile 8860195b-bootstrap-4-1-3 bootstrap@4.1.3
+22 verbose lock bootstrap@4.1.3 /home/nlin/.npm/8860195b-bootstrap-4-1-3.lock
+23 silly lockFile 3df9e473-jquery-3-3-1 jquery@3.3.1
+24 verbose lock jquery@3.3.1 /home/nlin/.npm/3df9e473-jquery-3-3-1.lock
+25 verbose registry.get jquery/3.3.1 not expired, no request
+26 verbose registry.get bootstrap/4.1.3 not expired, no request
+27 silly lockFile b693ba1f-pmjs-org-jquery-jquery-3-3-1-tgz https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz
+28 verbose lock https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz /home/nlin/.npm/b693ba1f-pmjs-org-jquery-jquery-3-3-1-tgz.lock
+29 silly lockFile 73ad31b5-rg-bootstrap-bootstrap-4-1-3-tgz https://registry.npmjs.org/bootstrap/-/bootstrap-4.1.3.tgz
+30 verbose lock https://registry.npmjs.org/bootstrap/-/bootstrap-4.1.3.tgz /home/nlin/.npm/73ad31b5-rg-bootstrap-bootstrap-4-1-3-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz',
+31 verbose addRemoteTarball   '958ce29e81c9790f31be7792df5d4d95fc57fbca' ]
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/bootstrap/-/bootstrap-4.1.3.tgz',
+32 verbose addRemoteTarball   '0eb371af2c8448e8c210411d0cb824a6409a12be' ]
+33 info retry fetch attempt 1 at 21:22:56
+34 verbose fetch to= /home/nlin/tmp/npm-425-4R6rFuL-/1537579376256-0.2611203750129789/tmp.tgz
+35 info retry fetch attempt 1 at 21:22:56
+36 verbose fetch to= /home/nlin/tmp/npm-425-4R6rFuL-/1537579376255-0.8771724340040237/tmp.tgz
+37 http GET https://registry.npmjs.org/bootstrap/-/bootstrap-4.1.3.tgz
+38 http GET https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz
+39 http 200 https://registry.npmjs.org/bootstrap/-/bootstrap-4.1.3.tgz
+40 http 200 https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz
+41 verbose tar unpack /home/nlin/tmp/npm-425-4R6rFuL-/1537579376255-0.8771724340040237/tmp.tgz
+42 silly lockFile e34b528e-76255-0-8771724340040237-package tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376255-0.8771724340040237/package
+43 verbose lock tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376255-0.8771724340040237/package /home/nlin/.npm/e34b528e-76255-0-8771724340040237-package.lock
+44 silly lockFile 9b0b849c-76255-0-8771724340040237-tmp-tgz tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376255-0.8771724340040237/tmp.tgz
+45 verbose lock tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376255-0.8771724340040237/tmp.tgz /home/nlin/.npm/9b0b849c-76255-0-8771724340040237-tmp-tgz.lock
+46 silly gunzTarPerm modes [ '755', '644' ]
+47 silly gunzTarPerm extractEntry package.json
+48 silly gunzTarPerm extractEntry AUTHORS.txt
+49 silly gunzTarPerm extractEntry bower.json
+50 silly gunzTarPerm extractEntry LICENSE.txt
+51 silly gunzTarPerm extractEntry README.md
+52 silly gunzTarPerm extractEntry dist/core.js
+53 silly gunzTarPerm extractEntry dist/jquery.js
+54 silly gunzTarPerm extractEntry dist/jquery.min.js
+55 silly gunzTarPerm extractEntry dist/jquery.min.map
+56 silly gunzTarPerm extractEntry dist/jquery.slim.js
+57 silly gunzTarPerm extractEntry dist/jquery.slim.min.js
+58 silly gunzTarPerm extractEntry dist/jquery.slim.min.map
+59 silly gunzTarPerm extractEntry external/sizzle/dist/sizzle.js
+60 silly gunzTarPerm extractEntry external/sizzle/dist/sizzle.min.js
+61 silly gunzTarPerm extractEntry external/sizzle/dist/sizzle.min.map
+62 silly gunzTarPerm extractEntry external/sizzle/LICENSE.txt
+63 silly gunzTarPerm extractEntry src/.eslintrc.json
+64 silly gunzTarPerm extractEntry src/ajax.js
+65 silly gunzTarPerm extractEntry src/ajax/jsonp.js
+66 silly gunzTarPerm extractEntry src/ajax/load.js
+67 silly gunzTarPerm extractEntry src/ajax/parseXML.js
+68 silly gunzTarPerm extractEntry src/ajax/script.js
+69 silly gunzTarPerm extractEntry src/ajax/var/location.js
+70 silly gunzTarPerm extractEntry src/ajax/var/nonce.js
+71 silly gunzTarPerm extractEntry src/ajax/var/rquery.js
+72 silly gunzTarPerm extractEntry src/ajax/xhr.js
+73 silly gunzTarPerm extractEntry src/attributes.js
+74 silly gunzTarPerm extractEntry src/attributes/attr.js
+75 silly gunzTarPerm extractEntry src/attributes/classes.js
+76 silly gunzTarPerm extractEntry src/attributes/prop.js
+77 silly gunzTarPerm extractEntry src/attributes/support.js
+78 silly gunzTarPerm extractEntry src/attributes/val.js
+79 silly gunzTarPerm extractEntry src/callbacks.js
+80 silly gunzTarPerm extractEntry src/core.js
+81 silly gunzTarPerm extractEntry src/core/access.js
+82 silly gunzTarPerm extractEntry src/core/camelCase.js
+83 silly gunzTarPerm extractEntry src/core/DOMEval.js
+84 silly gunzTarPerm extractEntry src/core/init.js
+85 silly gunzTarPerm extractEntry src/core/nodeName.js
+86 silly gunzTarPerm extractEntry src/core/parseHTML.js
+87 silly gunzTarPerm extractEntry src/core/ready-no-deferred.js
+88 silly gunzTarPerm extractEntry src/core/ready.js
+89 silly gunzTarPerm extractEntry src/core/readyException.js
+90 silly gunzTarPerm extractEntry src/core/stripAndCollapse.js
+91 silly gunzTarPerm extractEntry src/core/support.js
+92 silly gunzTarPerm extractEntry src/core/toType.js
+93 silly gunzTarPerm extractEntry src/core/var/rsingleTag.js
+94 silly gunzTarPerm extractEntry src/css.js
+95 silly gunzTarPerm extractEntry src/css/addGetHookIf.js
+96 silly gunzTarPerm extractEntry src/css/adjustCSS.js
+97 silly gunzTarPerm extractEntry src/css/curCSS.js
+98 silly gunzTarPerm extractEntry src/css/hiddenVisibleSelectors.js
+99 silly gunzTarPerm extractEntry src/css/showHide.js
+100 silly gunzTarPerm extractEntry src/css/support.js
+101 silly gunzTarPerm extractEntry src/css/var/cssExpand.js
+102 silly gunzTarPerm extractEntry src/css/var/getStyles.js
+103 silly gunzTarPerm extractEntry src/css/var/isHiddenWithinTree.js
+104 silly gunzTarPerm extractEntry src/css/var/rboxStyle.js
+105 silly gunzTarPerm extractEntry src/css/var/rnumnonpx.js
+106 silly gunzTarPerm extractEntry src/css/var/swap.js
+107 silly gunzTarPerm extractEntry src/data.js
+108 silly gunzTarPerm extractEntry src/data/Data.js
+109 silly gunzTarPerm extractEntry src/data/var/acceptData.js
+110 silly gunzTarPerm extractEntry src/data/var/dataPriv.js
+111 silly gunzTarPerm extractEntry src/data/var/dataUser.js
+112 silly gunzTarPerm extractEntry src/deferred.js
+113 silly gunzTarPerm extractEntry src/deferred/exceptionHook.js
+114 silly gunzTarPerm extractEntry src/deprecated.js
+115 silly gunzTarPerm extractEntry src/dimensions.js
+116 silly gunzTarPerm extractEntry src/effects.js
+117 silly gunzTarPerm extractEntry src/effects/animatedSelector.js
+118 silly gunzTarPerm extractEntry src/effects/Tween.js
+119 silly gunzTarPerm extractEntry src/event.js
+120 silly gunzTarPerm extractEntry src/event/ajax.js
+121 silly gunzTarPerm extractEntry src/event/alias.js
+122 silly gunzTarPerm extractEntry src/event/focusin.js
+123 silly gunzTarPerm extractEntry src/event/support.js
+124 silly gunzTarPerm extractEntry src/event/trigger.js
+125 silly gunzTarPerm extractEntry src/exports/amd.js
+126 silly gunzTarPerm extractEntry src/exports/global.js
+127 silly gunzTarPerm extractEntry src/jquery.js
+128 silly gunzTarPerm extractEntry src/manipulation.js
+129 silly gunzTarPerm extractEntry src/manipulation/_evalUrl.js
+130 silly gunzTarPerm extractEntry src/manipulation/buildFragment.js
+131 silly gunzTarPerm extractEntry src/manipulation/getAll.js
+132 silly gunzTarPerm extractEntry src/manipulation/setGlobalEval.js
+133 silly gunzTarPerm extractEntry src/manipulation/support.js
+134 silly gunzTarPerm extractEntry src/manipulation/var/rcheckableType.js
+135 silly gunzTarPerm extractEntry src/manipulation/var/rscriptType.js
+136 silly gunzTarPerm extractEntry src/manipulation/var/rtagName.js
+137 silly gunzTarPerm extractEntry src/manipulation/wrapMap.js
+138 silly gunzTarPerm extractEntry src/offset.js
+139 silly gunzTarPerm extractEntry src/queue.js
+140 silly gunzTarPerm extractEntry src/queue/delay.js
+141 silly gunzTarPerm extractEntry src/selector-native.js
+142 silly gunzTarPerm extractEntry src/selector-sizzle.js
+143 silly gunzTarPerm extractEntry src/selector.js
+144 silly gunzTarPerm extractEntry src/serialize.js
+145 silly gunzTarPerm extractEntry src/traversing.js
+146 silly gunzTarPerm extractEntry src/traversing/findFilter.js
+147 silly gunzTarPerm extractEntry src/traversing/var/dir.js
+148 silly gunzTarPerm extractEntry src/traversing/var/rneedsContext.js
+149 silly gunzTarPerm extractEntry src/traversing/var/siblings.js
+150 silly gunzTarPerm extractEntry src/var/arr.js
+151 silly gunzTarPerm extractEntry src/var/class2type.js
+152 silly gunzTarPerm extractEntry src/var/concat.js
+153 silly gunzTarPerm extractEntry src/var/document.js
+154 silly gunzTarPerm extractEntry src/var/documentElement.js
+155 silly gunzTarPerm extractEntry src/var/fnToString.js
+156 silly gunzTarPerm extractEntry src/var/getProto.js
+157 silly gunzTarPerm extractEntry src/var/hasOwn.js
+158 silly gunzTarPerm extractEntry src/var/indexOf.js
+159 silly gunzTarPerm extractEntry src/var/isFunction.js
+160 silly gunzTarPerm extractEntry src/var/isWindow.js
+161 silly gunzTarPerm extractEntry src/var/ObjectFunctionString.js
+162 silly gunzTarPerm extractEntry src/var/pnum.js
+163 silly gunzTarPerm extractEntry src/var/push.js
+164 silly gunzTarPerm extractEntry src/var/rcssNum.js
+165 silly gunzTarPerm extractEntry src/var/rnothtmlwhite.js
+166 silly gunzTarPerm extractEntry src/var/slice.js
+167 silly gunzTarPerm extractEntry src/var/support.js
+168 silly gunzTarPerm extractEntry src/var/toString.js
+169 silly gunzTarPerm extractEntry src/wrap.js
+170 verbose tar unpack /home/nlin/tmp/npm-425-4R6rFuL-/1537579376256-0.2611203750129789/tmp.tgz
+171 silly lockFile 4f297ec6-76256-0-2611203750129789-package tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376256-0.2611203750129789/package
+172 verbose lock tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376256-0.2611203750129789/package /home/nlin/.npm/4f297ec6-76256-0-2611203750129789-package.lock
+173 silly lockFile e8763711-76256-0-2611203750129789-tmp-tgz tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376256-0.2611203750129789/tmp.tgz
+174 verbose lock tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376256-0.2611203750129789/tmp.tgz /home/nlin/.npm/e8763711-76256-0-2611203750129789-tmp-tgz.lock
+175 silly gunzTarPerm modes [ '755', '644' ]
+176 silly gunzTarPerm extractEntry package.json
+177 silly gunzTarPerm extractEntry LICENSE
+178 silly gunzTarPerm extractEntry README.md
+179 silly gunzTarPerm extractEntry dist/.DS_Store
+180 silly gunzTarPerm extractEntry dist/css/.DS_Store
+181 silly gunzTarPerm extractEntry dist/css/bootstrap-grid.css
+182 silly gunzTarPerm extractEntry dist/css/bootstrap-grid.css.map
+183 silly gunzTarPerm extractEntry dist/css/bootstrap-grid.min.css
+184 silly gunzTarPerm extractEntry dist/css/bootstrap-grid.min.css.map
+185 silly gunzTarPerm extractEntry dist/css/bootstrap-reboot.css
+186 silly gunzTarPerm extractEntry dist/css/bootstrap-reboot.css.map
+187 silly gunzTarPerm extractEntry dist/css/bootstrap-reboot.min.css
+188 silly gunzTarPerm extractEntry dist/css/bootstrap-reboot.min.css.map
+189 silly gunzTarPerm extractEntry dist/css/bootstrap.css
+190 silly gunzTarPerm extractEntry dist/css/bootstrap.css.map
+191 silly gunzTarPerm extractEntry dist/css/bootstrap.min.css
+192 silly gunzTarPerm extractEntry dist/css/bootstrap.min.css.map
+193 silly gunzTarPerm extractEntry dist/js/bootstrap.bundle.js
+194 silly gunzTarPerm extractEntry dist/js/bootstrap.bundle.js.map
+195 silly lockFile e34b528e-76255-0-8771724340040237-package tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376255-0.8771724340040237/package
+196 silly lockFile e34b528e-76255-0-8771724340040237-package tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376255-0.8771724340040237/package
+197 silly lockFile 9b0b849c-76255-0-8771724340040237-tmp-tgz tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376255-0.8771724340040237/tmp.tgz
+198 silly lockFile 9b0b849c-76255-0-8771724340040237-tmp-tgz tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376255-0.8771724340040237/tmp.tgz
+199 verbose tar pack [ '/home/nlin/.npm/jquery/3.3.1/package.tgz',
+199 verbose tar pack   '/home/nlin/tmp/npm-425-4R6rFuL-/1537579376255-0.8771724340040237/package' ]
+200 verbose tarball /home/nlin/.npm/jquery/3.3.1/package.tgz
+201 verbose folder /home/nlin/tmp/npm-425-4R6rFuL-/1537579376255-0.8771724340040237/package
+202 silly lockFile e34b528e-76255-0-8771724340040237-package tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376255-0.8771724340040237/package
+203 verbose lock tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376255-0.8771724340040237/package /home/nlin/.npm/e34b528e-76255-0-8771724340040237-package.lock
+204 silly lockFile f03b8292-lin-npm-jquery-3-3-1-package-tgz tar:///home/nlin/.npm/jquery/3.3.1/package.tgz
+205 verbose lock tar:///home/nlin/.npm/jquery/3.3.1/package.tgz /home/nlin/.npm/f03b8292-lin-npm-jquery-3-3-1-package-tgz.lock
+206 silly gunzTarPerm extractEntry dist/js/bootstrap.bundle.min.js
+207 silly gunzTarPerm extractEntry dist/js/bootstrap.bundle.min.js.map
+208 silly gunzTarPerm extractEntry dist/js/bootstrap.js
+209 silly gunzTarPerm extractEntry dist/js/bootstrap.js.map
+210 silly gunzTarPerm extractEntry dist/js/bootstrap.min.js
+211 silly gunzTarPerm extractEntry dist/js/bootstrap.min.js.map
+212 silly gunzTarPerm extractEntry js/dist/alert.js
+213 silly gunzTarPerm extractEntry js/dist/alert.js.map
+214 silly gunzTarPerm extractEntry js/dist/button.js
+215 silly gunzTarPerm extractEntry js/dist/button.js.map
+216 silly gunzTarPerm extractEntry js/dist/carousel.js
+217 silly gunzTarPerm extractEntry js/dist/carousel.js.map
+218 silly gunzTarPerm extractEntry js/dist/collapse.js
+219 silly gunzTarPerm extractEntry js/dist/collapse.js.map
+220 silly gunzTarPerm extractEntry js/dist/dropdown.js
+221 silly gunzTarPerm extractEntry js/dist/dropdown.js.map
+222 silly gunzTarPerm extractEntry js/dist/index.js
+223 silly gunzTarPerm extractEntry js/dist/index.js.map
+224 silly gunzTarPerm extractEntry js/dist/modal.js
+225 silly lockFile e34b528e-76255-0-8771724340040237-package tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376255-0.8771724340040237/package
+226 silly lockFile e34b528e-76255-0-8771724340040237-package tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376255-0.8771724340040237/package
+227 silly lockFile f03b8292-lin-npm-jquery-3-3-1-package-tgz tar:///home/nlin/.npm/jquery/3.3.1/package.tgz
+228 silly lockFile f03b8292-lin-npm-jquery-3-3-1-package-tgz tar:///home/nlin/.npm/jquery/3.3.1/package.tgz
+229 silly lockFile 74d2e53d-me-nlin-npm-jquery-3-3-1-package /home/nlin/.npm/jquery/3.3.1/package
+230 verbose lock /home/nlin/.npm/jquery/3.3.1/package /home/nlin/.npm/74d2e53d-me-nlin-npm-jquery-3-3-1-package.lock
+231 silly lockFile 74d2e53d-me-nlin-npm-jquery-3-3-1-package /home/nlin/.npm/jquery/3.3.1/package
+232 silly lockFile 74d2e53d-me-nlin-npm-jquery-3-3-1-package /home/nlin/.npm/jquery/3.3.1/package
+233 verbose tar unpack /home/nlin/.npm/jquery/3.3.1/package.tgz
+234 silly lockFile a55f2bce-me-nlin-npm-jquery-3-3-1-package tar:///home/nlin/.npm/jquery/3.3.1/package
+235 verbose lock tar:///home/nlin/.npm/jquery/3.3.1/package /home/nlin/.npm/a55f2bce-me-nlin-npm-jquery-3-3-1-package.lock
+236 silly lockFile f03b8292-lin-npm-jquery-3-3-1-package-tgz tar:///home/nlin/.npm/jquery/3.3.1/package.tgz
+237 verbose lock tar:///home/nlin/.npm/jquery/3.3.1/package.tgz /home/nlin/.npm/f03b8292-lin-npm-jquery-3-3-1-package-tgz.lock
+238 silly gunzTarPerm modes [ '755', '644' ]
+239 silly gunzTarPerm extractEntry package.json
+240 silly gunzTarPerm extractEntry README.md
+241 silly gunzTarPerm extractEntry AUTHORS.txt
+242 silly gunzTarPerm extractEntry LICENSE.txt
+243 silly gunzTarPerm extractEntry bower.json
+244 silly gunzTarPerm extractEntry dist/core.js
+245 silly gunzTarPerm extractEntry dist/jquery.js
+246 silly gunzTarPerm extractEntry dist/jquery.min.js
+247 silly gunzTarPerm extractEntry dist/jquery.slim.js
+248 silly gunzTarPerm extractEntry dist/jquery.slim.min.js
+249 silly gunzTarPerm extractEntry dist/jquery.min.map
+250 silly gunzTarPerm extractEntry dist/jquery.slim.min.map
+251 silly gunzTarPerm extractEntry js/dist/modal.js.map
+252 silly gunzTarPerm extractEntry js/dist/popover.js
+253 silly gunzTarPerm extractEntry js/dist/popover.js.map
+254 silly gunzTarPerm extractEntry js/dist/scrollspy.js
+255 silly gunzTarPerm extractEntry js/dist/scrollspy.js.map
+256 silly gunzTarPerm extractEntry js/dist/tab.js
+257 silly gunzTarPerm extractEntry js/dist/tab.js.map
+258 silly gunzTarPerm extractEntry js/dist/tooltip.js
+259 silly gunzTarPerm extractEntry js/dist/tooltip.js.map
+260 silly gunzTarPerm extractEntry js/dist/util.js
+261 silly gunzTarPerm extractEntry external/sizzle/LICENSE.txt
+262 silly gunzTarPerm extractEntry js/dist/util.js.map
+263 silly gunzTarPerm extractEntry js/src/alert.js
+264 silly gunzTarPerm extractEntry js/src/button.js
+265 silly gunzTarPerm extractEntry js/src/carousel.js
+266 silly gunzTarPerm extractEntry js/src/collapse.js
+267 silly gunzTarPerm extractEntry js/src/dropdown.js
+268 silly gunzTarPerm extractEntry js/src/index.js
+269 silly gunzTarPerm extractEntry js/src/modal.js
+270 silly gunzTarPerm extractEntry external/sizzle/dist/sizzle.js
+271 silly gunzTarPerm extractEntry external/sizzle/dist/sizzle.min.js
+272 silly gunzTarPerm extractEntry js/src/popover.js
+273 silly gunzTarPerm extractEntry js/src/scrollspy.js
+274 silly gunzTarPerm extractEntry js/src/tab.js
+275 silly gunzTarPerm extractEntry js/src/tooltip.js
+276 silly gunzTarPerm extractEntry js/src/util.js
+277 silly gunzTarPerm extractEntry scss/_alert.scss
+278 silly gunzTarPerm extractEntry scss/_badge.scss
+279 silly gunzTarPerm extractEntry scss/_breadcrumb.scss
+280 silly gunzTarPerm extractEntry scss/_button-group.scss
+281 silly gunzTarPerm extractEntry scss/_buttons.scss
+282 silly gunzTarPerm extractEntry scss/_card.scss
+283 silly gunzTarPerm extractEntry scss/_carousel.scss
+284 silly gunzTarPerm extractEntry scss/_close.scss
+285 silly gunzTarPerm extractEntry scss/_code.scss
+286 silly gunzTarPerm extractEntry scss/_custom-forms.scss
+287 silly gunzTarPerm extractEntry scss/_dropdown.scss
+288 silly gunzTarPerm extractEntry scss/_forms.scss
+289 silly gunzTarPerm extractEntry scss/_functions.scss
+290 silly gunzTarPerm extractEntry scss/_grid.scss
+291 silly gunzTarPerm extractEntry scss/_images.scss
+292 silly gunzTarPerm extractEntry scss/_input-group.scss
+293 silly gunzTarPerm extractEntry scss/_jumbotron.scss
+294 silly gunzTarPerm extractEntry scss/_list-group.scss
+295 silly gunzTarPerm extractEntry scss/_media.scss
+296 silly gunzTarPerm extractEntry scss/_mixins.scss
+297 silly gunzTarPerm extractEntry scss/_modal.scss
+298 silly gunzTarPerm extractEntry scss/_nav.scss
+299 silly gunzTarPerm extractEntry scss/_navbar.scss
+300 silly gunzTarPerm extractEntry scss/_pagination.scss
+301 silly gunzTarPerm extractEntry scss/_popover.scss
+302 silly gunzTarPerm extractEntry scss/_print.scss
+303 silly gunzTarPerm extractEntry scss/_progress.scss
+304 silly gunzTarPerm extractEntry scss/_reboot.scss
+305 silly gunzTarPerm extractEntry scss/_root.scss
+306 silly gunzTarPerm extractEntry scss/_tables.scss
+307 silly gunzTarPerm extractEntry scss/_tooltip.scss
+308 silly gunzTarPerm extractEntry scss/_transitions.scss
+309 silly gunzTarPerm extractEntry scss/_type.scss
+310 silly gunzTarPerm extractEntry scss/_utilities.scss
+311 silly gunzTarPerm extractEntry scss/_variables.scss
+312 silly gunzTarPerm extractEntry scss/bootstrap-grid.scss
+313 silly gunzTarPerm extractEntry scss/bootstrap-reboot.scss
+314 silly gunzTarPerm extractEntry scss/bootstrap.scss
+315 silly gunzTarPerm extractEntry scss/mixins/_alert.scss
+316 silly gunzTarPerm extractEntry scss/mixins/_background-variant.scss
+317 silly gunzTarPerm extractEntry scss/mixins/_badge.scss
+318 silly gunzTarPerm extractEntry scss/mixins/_border-radius.scss
+319 silly gunzTarPerm extractEntry scss/mixins/_box-shadow.scss
+320 silly gunzTarPerm extractEntry scss/mixins/_breakpoints.scss
+321 silly gunzTarPerm extractEntry scss/mixins/_buttons.scss
+322 silly gunzTarPerm extractEntry scss/mixins/_caret.scss
+323 silly gunzTarPerm extractEntry scss/mixins/_clearfix.scss
+324 silly gunzTarPerm extractEntry scss/mixins/_float.scss
+325 silly gunzTarPerm extractEntry scss/mixins/_forms.scss
+326 silly gunzTarPerm extractEntry scss/mixins/_gradients.scss
+327 silly gunzTarPerm extractEntry scss/mixins/_grid-framework.scss
+328 silly gunzTarPerm extractEntry scss/mixins/_grid.scss
+329 silly gunzTarPerm extractEntry scss/mixins/_hover.scss
+330 silly gunzTarPerm extractEntry scss/mixins/_image.scss
+331 silly gunzTarPerm extractEntry scss/mixins/_list-group.scss
+332 silly gunzTarPerm extractEntry scss/mixins/_lists.scss
+333 silly gunzTarPerm extractEntry scss/mixins/_nav-divider.scss
+334 silly gunzTarPerm extractEntry scss/mixins/_pagination.scss
+335 silly gunzTarPerm extractEntry scss/mixins/_reset-text.scss
+336 silly gunzTarPerm extractEntry scss/mixins/_resize.scss
+337 silly gunzTarPerm extractEntry scss/mixins/_screen-reader.scss
+338 silly gunzTarPerm extractEntry scss/mixins/_size.scss
+339 silly gunzTarPerm extractEntry scss/mixins/_table-row.scss
+340 silly gunzTarPerm extractEntry scss/mixins/_text-emphasis.scss
+341 silly gunzTarPerm extractEntry scss/mixins/_text-hide.scss
+342 silly gunzTarPerm extractEntry scss/mixins/_text-truncate.scss
+343 silly gunzTarPerm extractEntry scss/mixins/_transition.scss
+344 silly gunzTarPerm extractEntry scss/mixins/_visibility.scss
+345 silly gunzTarPerm extractEntry scss/utilities/_align.scss
+346 silly gunzTarPerm extractEntry scss/utilities/_background.scss
+347 silly gunzTarPerm extractEntry scss/utilities/_borders.scss
+348 silly gunzTarPerm extractEntry scss/utilities/_clearfix.scss
+349 silly gunzTarPerm extractEntry scss/utilities/_display.scss
+350 silly gunzTarPerm extractEntry scss/utilities/_embed.scss
+351 silly gunzTarPerm extractEntry scss/utilities/_flex.scss
+352 silly gunzTarPerm extractEntry scss/utilities/_float.scss
+353 silly gunzTarPerm extractEntry scss/utilities/_position.scss
+354 silly gunzTarPerm extractEntry scss/utilities/_screenreaders.scss
+355 silly gunzTarPerm extractEntry scss/utilities/_shadows.scss
+356 silly gunzTarPerm extractEntry scss/utilities/_sizing.scss
+357 silly gunzTarPerm extractEntry scss/utilities/_spacing.scss
+358 silly gunzTarPerm extractEntry scss/utilities/_text.scss
+359 silly gunzTarPerm extractEntry scss/utilities/_visibility.scss
+360 silly gunzTarPerm extractEntry external/sizzle/dist/sizzle.min.map
+361 silly gunzTarPerm extractEntry src/wrap.js
+362 silly gunzTarPerm extractEntry src/core.js
+363 silly gunzTarPerm extractEntry src/selector.js
+364 silly gunzTarPerm extractEntry src/css.js
+365 silly gunzTarPerm extractEntry src/selector-sizzle.js
+366 silly gunzTarPerm extractEntry src/serialize.js
+367 silly gunzTarPerm extractEntry src/selector-native.js
+368 silly gunzTarPerm extractEntry src/deferred.js
+369 silly gunzTarPerm extractEntry src/deprecated.js
+370 silly gunzTarPerm extractEntry src/dimensions.js
+371 silly gunzTarPerm extractEntry src/queue.js
+372 silly gunzTarPerm extractEntry src/callbacks.js
+373 silly gunzTarPerm extractEntry src/offset.js
+374 silly gunzTarPerm extractEntry src/attributes.js
+375 silly gunzTarPerm extractEntry src/manipulation.js
+376 silly gunzTarPerm extractEntry src/traversing.js
+377 silly gunzTarPerm extractEntry src/event.js
+378 silly gunzTarPerm extractEntry src/ajax.js
+379 silly gunzTarPerm extractEntry src/jquery.js
+380 silly gunzTarPerm extractEntry src/data.js
+381 silly gunzTarPerm extractEntry src/effects.js
+382 silly gunzTarPerm extractEntry src/data/Data.js
+383 silly gunzTarPerm extractEntry src/data/var/acceptData.js
+384 silly gunzTarPerm extractEntry src/data/var/dataPriv.js
+385 silly gunzTarPerm extractEntry src/data/var/dataUser.js
+386 silly gunzTarPerm extractEntry src/exports/amd.js
+387 silly gunzTarPerm extractEntry src/exports/global.js
+388 silly gunzTarPerm extractEntry src/event/ajax.js
+389 silly gunzTarPerm extractEntry src/event/alias.js
+390 silly gunzTarPerm extractEntry src/event/focusin.js
+391 silly gunzTarPerm extractEntry src/event/support.js
+392 silly gunzTarPerm extractEntry src/event/trigger.js
+393 silly gunzTarPerm extractEntry src/ajax/jsonp.js
+394 silly gunzTarPerm extractEntry src/ajax/load.js
+395 silly gunzTarPerm extractEntry src/ajax/parseXML.js
+396 silly gunzTarPerm extractEntry src/ajax/script.js
+397 silly gunzTarPerm extractEntry src/ajax/xhr.js
+398 silly gunzTarPerm extractEntry src/ajax/var/location.js
+399 silly gunzTarPerm extractEntry src/ajax/var/nonce.js
+400 silly gunzTarPerm extractEntry src/ajax/var/rquery.js
+401 silly gunzTarPerm extractEntry src/queue/delay.js
+402 silly gunzTarPerm extractEntry src/effects/Tween.js
+403 silly gunzTarPerm extractEntry src/effects/animatedSelector.js
+404 silly gunzTarPerm extractEntry src/deferred/exceptionHook.js
+405 silly gunzTarPerm extractEntry src/manipulation/_evalUrl.js
+406 silly gunzTarPerm extractEntry src/manipulation/buildFragment.js
+407 silly gunzTarPerm extractEntry src/manipulation/getAll.js
+408 silly gunzTarPerm extractEntry src/manipulation/setGlobalEval.js
+409 silly gunzTarPerm extractEntry src/manipulation/support.js
+410 silly gunzTarPerm extractEntry src/manipulation/wrapMap.js
+411 silly gunzTarPerm extractEntry src/manipulation/var/rcheckableType.js
+412 silly gunzTarPerm extractEntry src/manipulation/var/rscriptType.js
+413 silly gunzTarPerm extractEntry src/manipulation/var/rtagName.js
+414 silly gunzTarPerm extractEntry src/css/addGetHookIf.js
+415 silly gunzTarPerm extractEntry src/css/adjustCSS.js
+416 silly gunzTarPerm extractEntry src/css/curCSS.js
+417 silly gunzTarPerm extractEntry src/css/hiddenVisibleSelectors.js
+418 silly gunzTarPerm extractEntry src/css/showHide.js
+419 silly gunzTarPerm extractEntry src/css/support.js
+420 silly gunzTarPerm extractEntry src/css/var/cssExpand.js
+421 silly gunzTarPerm extractEntry src/css/var/getStyles.js
+422 silly gunzTarPerm extractEntry src/css/var/isHiddenWithinTree.js
+423 silly gunzTarPerm extractEntry src/css/var/rboxStyle.js
+424 silly gunzTarPerm extractEntry src/css/var/rnumnonpx.js
+425 silly gunzTarPerm extractEntry src/css/var/swap.js
+426 silly gunzTarPerm extractEntry src/core/DOMEval.js
+427 silly gunzTarPerm extractEntry src/core/init.js
+428 silly gunzTarPerm extractEntry src/core/nodeName.js
+429 silly gunzTarPerm extractEntry src/core/parseHTML.js
+430 silly gunzTarPerm extractEntry src/core/camelCase.js
+431 silly gunzTarPerm extractEntry src/core/ready.js
+432 silly gunzTarPerm extractEntry src/core/readyException.js
+433 silly gunzTarPerm extractEntry src/core/stripAndCollapse.js
+434 silly gunzTarPerm extractEntry src/core/support.js
+435 silly gunzTarPerm extractEntry src/core/toType.js
+436 silly gunzTarPerm extractEntry src/core/access.js
+437 silly gunzTarPerm extractEntry src/core/ready-no-deferred.js
+438 silly gunzTarPerm extractEntry src/core/var/rsingleTag.js
+439 silly gunzTarPerm extractEntry src/traversing/findFilter.js
+440 silly gunzTarPerm extractEntry src/traversing/var/dir.js
+441 silly gunzTarPerm extractEntry src/traversing/var/rneedsContext.js
+442 silly gunzTarPerm extractEntry src/traversing/var/siblings.js
+443 silly gunzTarPerm extractEntry src/attributes/attr.js
+444 silly gunzTarPerm extractEntry src/attributes/classes.js
+445 silly gunzTarPerm extractEntry src/attributes/prop.js
+446 silly gunzTarPerm extractEntry src/attributes/support.js
+447 silly gunzTarPerm extractEntry src/attributes/val.js
+448 silly gunzTarPerm extractEntry src/var/ObjectFunctionString.js
+449 silly gunzTarPerm extractEntry src/var/fnToString.js
+450 silly gunzTarPerm extractEntry src/var/getProto.js
+451 silly gunzTarPerm extractEntry src/var/hasOwn.js
+452 silly gunzTarPerm extractEntry src/var/documentElement.js
+453 silly gunzTarPerm extractEntry src/var/isFunction.js
+454 silly gunzTarPerm extractEntry src/var/isWindow.js
+455 silly gunzTarPerm extractEntry src/var/pnum.js
+456 silly gunzTarPerm extractEntry src/var/push.js
+457 silly gunzTarPerm extractEntry src/var/rcssNum.js
+458 silly gunzTarPerm extractEntry src/var/document.js
+459 silly gunzTarPerm extractEntry src/var/rnothtmlwhite.js
+460 silly gunzTarPerm extractEntry src/var/concat.js
+461 silly gunzTarPerm extractEntry src/var/slice.js
+462 silly gunzTarPerm extractEntry src/var/class2type.js
+463 silly gunzTarPerm extractEntry src/var/support.js
+464 silly gunzTarPerm extractEntry src/var/arr.js
+465 silly gunzTarPerm extractEntry src/var/toString.js
+466 silly gunzTarPerm extractEntry src/var/indexOf.js
+467 silly gunzTarPerm extractEntry src/.eslintrc.json
+468 silly lockFile 4f297ec6-76256-0-2611203750129789-package tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376256-0.2611203750129789/package
+469 silly lockFile 4f297ec6-76256-0-2611203750129789-package tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376256-0.2611203750129789/package
+470 silly lockFile e8763711-76256-0-2611203750129789-tmp-tgz tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376256-0.2611203750129789/tmp.tgz
+471 silly lockFile e8763711-76256-0-2611203750129789-tmp-tgz tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376256-0.2611203750129789/tmp.tgz
+472 verbose tar pack [ '/home/nlin/.npm/bootstrap/4.1.3/package.tgz',
+472 verbose tar pack   '/home/nlin/tmp/npm-425-4R6rFuL-/1537579376256-0.2611203750129789/package' ]
+473 verbose tarball /home/nlin/.npm/bootstrap/4.1.3/package.tgz
+474 verbose folder /home/nlin/tmp/npm-425-4R6rFuL-/1537579376256-0.2611203750129789/package
+475 silly lockFile 4f297ec6-76256-0-2611203750129789-package tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376256-0.2611203750129789/package
+476 verbose lock tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376256-0.2611203750129789/package /home/nlin/.npm/4f297ec6-76256-0-2611203750129789-package.lock
+477 silly lockFile 4954cc4e--npm-bootstrap-4-1-3-package-tgz tar:///home/nlin/.npm/bootstrap/4.1.3/package.tgz
+478 verbose lock tar:///home/nlin/.npm/bootstrap/4.1.3/package.tgz /home/nlin/.npm/4954cc4e--npm-bootstrap-4-1-3-package-tgz.lock
+479 silly lockFile a55f2bce-me-nlin-npm-jquery-3-3-1-package tar:///home/nlin/.npm/jquery/3.3.1/package
+480 silly lockFile a55f2bce-me-nlin-npm-jquery-3-3-1-package tar:///home/nlin/.npm/jquery/3.3.1/package
+481 silly lockFile f03b8292-lin-npm-jquery-3-3-1-package-tgz tar:///home/nlin/.npm/jquery/3.3.1/package.tgz
+482 silly lockFile f03b8292-lin-npm-jquery-3-3-1-package-tgz tar:///home/nlin/.npm/jquery/3.3.1/package.tgz
+483 verbose chmod /home/nlin/.npm/jquery/3.3.1/package.tgz 644
+484 verbose chown /home/nlin/.npm/jquery/3.3.1/package.tgz [ 1000, 1000 ]
+485 silly lockFile b693ba1f-pmjs-org-jquery-jquery-3-3-1-tgz https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz
+486 silly lockFile b693ba1f-pmjs-org-jquery-jquery-3-3-1-tgz https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz
+487 silly lockFile 3df9e473-jquery-3-3-1 jquery@3.3.1
+488 silly lockFile 3df9e473-jquery-3-3-1 jquery@3.3.1
+489 silly lockFile 4f297ec6-76256-0-2611203750129789-package tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376256-0.2611203750129789/package
+490 silly lockFile 4f297ec6-76256-0-2611203750129789-package tar:///home/nlin/tmp/npm-425-4R6rFuL-/1537579376256-0.2611203750129789/package
+491 silly lockFile 4954cc4e--npm-bootstrap-4-1-3-package-tgz tar:///home/nlin/.npm/bootstrap/4.1.3/package.tgz
+492 silly lockFile 4954cc4e--npm-bootstrap-4-1-3-package-tgz tar:///home/nlin/.npm/bootstrap/4.1.3/package.tgz
+493 silly lockFile f31f5fec-nlin-npm-bootstrap-4-1-3-package /home/nlin/.npm/bootstrap/4.1.3/package
+494 verbose lock /home/nlin/.npm/bootstrap/4.1.3/package /home/nlin/.npm/f31f5fec-nlin-npm-bootstrap-4-1-3-package.lock
+495 silly lockFile f31f5fec-nlin-npm-bootstrap-4-1-3-package /home/nlin/.npm/bootstrap/4.1.3/package
+496 silly lockFile f31f5fec-nlin-npm-bootstrap-4-1-3-package /home/nlin/.npm/bootstrap/4.1.3/package
+497 verbose tar unpack /home/nlin/.npm/bootstrap/4.1.3/package.tgz
+498 silly lockFile 587d45d9-nlin-npm-bootstrap-4-1-3-package tar:///home/nlin/.npm/bootstrap/4.1.3/package
+499 verbose lock tar:///home/nlin/.npm/bootstrap/4.1.3/package /home/nlin/.npm/587d45d9-nlin-npm-bootstrap-4-1-3-package.lock
+500 silly lockFile 4954cc4e--npm-bootstrap-4-1-3-package-tgz tar:///home/nlin/.npm/bootstrap/4.1.3/package.tgz
+501 verbose lock tar:///home/nlin/.npm/bootstrap/4.1.3/package.tgz /home/nlin/.npm/4954cc4e--npm-bootstrap-4-1-3-package-tgz.lock
+502 silly gunzTarPerm modes [ '755', '644' ]
+503 silly gunzTarPerm extractEntry package.json
+504 silly gunzTarPerm extractEntry README.md
+505 silly gunzTarPerm extractEntry dist/css/bootstrap-reboot.min.css
+506 silly gunzTarPerm extractEntry dist/css/bootstrap-grid.css
+507 silly gunzTarPerm extractEntry dist/css/bootstrap-grid.min.css
+508 silly gunzTarPerm extractEntry dist/css/bootstrap-grid.min.css.map
+509 silly gunzTarPerm extractEntry dist/css/bootstrap-reboot.css
+510 silly gunzTarPerm extractEntry dist/css/bootstrap-reboot.css.map
+511 silly gunzTarPerm extractEntry dist/css/bootstrap-grid.css.map
+512 silly gunzTarPerm extractEntry dist/css/bootstrap-reboot.min.css.map
+513 silly gunzTarPerm extractEntry dist/css/bootstrap.css
+514 silly gunzTarPerm extractEntry dist/css/bootstrap.css.map
+515 silly gunzTarPerm extractEntry dist/css/bootstrap.min.css
+516 silly gunzTarPerm extractEntry dist/css/bootstrap.min.css.map
+517 silly gunzTarPerm extractEntry dist/js/bootstrap.bundle.js
+518 silly gunzTarPerm extractEntry dist/js/bootstrap.bundle.min.js
+519 silly gunzTarPerm extractEntry dist/js/bootstrap.js
+520 silly gunzTarPerm extractEntry dist/js/bootstrap.min.js
+521 silly gunzTarPerm extractEntry dist/js/bootstrap.bundle.js.map
+522 silly gunzTarPerm extractEntry dist/js/bootstrap.bundle.min.js.map
+523 silly gunzTarPerm extractEntry dist/js/bootstrap.js.map
+524 silly gunzTarPerm extractEntry dist/js/bootstrap.min.js.map
+525 silly gunzTarPerm extractEntry js/dist/alert.js
+526 silly gunzTarPerm extractEntry js/dist/util.js
+527 silly gunzTarPerm extractEntry js/dist/carousel.js
+528 silly gunzTarPerm extractEntry js/dist/tooltip.js
+529 silly gunzTarPerm extractEntry js/dist/button.js
+530 silly gunzTarPerm extractEntry js/dist/tab.js
+531 silly gunzTarPerm extractEntry js/dist/dropdown.js
+532 silly gunzTarPerm extractEntry js/dist/scrollspy.js
+533 silly gunzTarPerm extractEntry js/dist/index.js
+534 silly gunzTarPerm extractEntry js/dist/popover.js
+535 silly gunzTarPerm extractEntry js/dist/collapse.js
+536 silly gunzTarPerm extractEntry js/dist/modal.js
+537 silly gunzTarPerm extractEntry js/dist/collapse.js.map
+538 silly gunzTarPerm extractEntry js/dist/alert.js.map
+539 silly gunzTarPerm extractEntry js/dist/index.js.map
+540 silly gunzTarPerm extractEntry js/dist/popover.js.map
+541 silly gunzTarPerm extractEntry js/dist/dropdown.js.map
+542 silly gunzTarPerm extractEntry js/dist/scrollspy.js.map
+543 silly gunzTarPerm extractEntry js/dist/modal.js.map
+544 silly gunzTarPerm extractEntry js/dist/tab.js.map
+545 silly gunzTarPerm extractEntry js/dist/carousel.js.map
+546 silly gunzTarPerm extractEntry js/dist/tooltip.js.map
+547 silly gunzTarPerm extractEntry js/dist/button.js.map
+548 silly gunzTarPerm extractEntry js/dist/util.js.map
+549 silly gunzTarPerm extractEntry js/src/alert.js
+550 silly gunzTarPerm extractEntry js/src/carousel.js
+551 silly gunzTarPerm extractEntry js/src/collapse.js
+552 silly gunzTarPerm extractEntry js/src/dropdown.js
+553 silly gunzTarPerm extractEntry js/src/index.js
+554 silly gunzTarPerm extractEntry js/src/button.js
+555 silly gunzTarPerm extractEntry js/src/popover.js
+556 silly gunzTarPerm extractEntry js/src/scrollspy.js
+557 silly gunzTarPerm extractEntry js/src/tab.js
+558 silly gunzTarPerm extractEntry js/src/tooltip.js
+559 silly gunzTarPerm extractEntry js/src/util.js
+560 silly gunzTarPerm extractEntry js/src/modal.js
+561 silly gunzTarPerm extractEntry scss/_modal.scss
+562 silly gunzTarPerm extractEntry scss/_alert.scss
+563 silly gunzTarPerm extractEntry scss/_breadcrumb.scss
+564 silly gunzTarPerm extractEntry scss/_button-group.scss
+565 silly gunzTarPerm extractEntry scss/_buttons.scss
+566 silly gunzTarPerm extractEntry scss/_card.scss
+567 silly gunzTarPerm extractEntry scss/_carousel.scss
+568 silly gunzTarPerm extractEntry scss/_close.scss
+569 silly gunzTarPerm extractEntry scss/_code.scss
+570 silly gunzTarPerm extractEntry scss/_custom-forms.scss
+571 silly gunzTarPerm extractEntry scss/_dropdown.scss
+572 silly gunzTarPerm extractEntry scss/_forms.scss
+573 silly gunzTarPerm extractEntry scss/_functions.scss
+574 silly gunzTarPerm extractEntry scss/_grid.scss
+575 silly gunzTarPerm extractEntry scss/_images.scss
+576 silly gunzTarPerm extractEntry scss/_input-group.scss
+577 silly gunzTarPerm extractEntry scss/_jumbotron.scss
+578 silly gunzTarPerm extractEntry scss/_list-group.scss
+579 silly gunzTarPerm extractEntry scss/_media.scss
+580 silly gunzTarPerm extractEntry scss/_mixins.scss
+581 silly gunzTarPerm extractEntry scss/_badge.scss
+582 silly gunzTarPerm extractEntry scss/_nav.scss
+583 silly gunzTarPerm extractEntry scss/_navbar.scss
+584 silly gunzTarPerm extractEntry scss/_pagination.scss
+585 silly gunzTarPerm extractEntry scss/_popover.scss
+586 silly gunzTarPerm extractEntry scss/_print.scss
+587 silly gunzTarPerm extractEntry scss/_progress.scss
+588 silly gunzTarPerm extractEntry scss/_reboot.scss
+589 silly gunzTarPerm extractEntry scss/_root.scss
+590 silly gunzTarPerm extractEntry scss/_tables.scss
+591 silly gunzTarPerm extractEntry scss/_tooltip.scss
+592 silly gunzTarPerm extractEntry scss/_transitions.scss
+593 silly gunzTarPerm extractEntry scss/_type.scss
+594 silly gunzTarPerm extractEntry scss/_utilities.scss
+595 silly gunzTarPerm extractEntry scss/_variables.scss
+596 silly gunzTarPerm extractEntry scss/bootstrap-grid.scss
+597 silly gunzTarPerm extractEntry scss/bootstrap-reboot.scss
+598 silly gunzTarPerm extractEntry scss/bootstrap.scss
+599 silly gunzTarPerm extractEntry scss/mixins/_image.scss
+600 silly gunzTarPerm extractEntry scss/mixins/_alert.scss
+601 silly gunzTarPerm extractEntry scss/mixins/_badge.scss
+602 silly gunzTarPerm extractEntry scss/mixins/_border-radius.scss
+603 silly gunzTarPerm extractEntry scss/mixins/_box-shadow.scss
+604 silly gunzTarPerm extractEntry scss/mixins/_breakpoints.scss
+605 silly gunzTarPerm extractEntry scss/mixins/_buttons.scss
+606 silly gunzTarPerm extractEntry scss/mixins/_caret.scss
+607 silly gunzTarPerm extractEntry scss/mixins/_clearfix.scss
+608 silly gunzTarPerm extractEntry scss/mixins/_float.scss
+609 silly gunzTarPerm extractEntry scss/mixins/_forms.scss
+610 silly gunzTarPerm extractEntry scss/mixins/_gradients.scss
+611 silly gunzTarPerm extractEntry scss/mixins/_grid-framework.scss
+612 silly gunzTarPerm extractEntry scss/mixins/_grid.scss
+613 silly gunzTarPerm extractEntry scss/mixins/_hover.scss
+614 silly gunzTarPerm extractEntry scss/mixins/_background-variant.scss
+615 silly gunzTarPerm extractEntry scss/mixins/_list-group.scss
+616 silly gunzTarPerm extractEntry scss/mixins/_lists.scss
+617 silly gunzTarPerm extractEntry scss/mixins/_nav-divider.scss
+618 silly gunzTarPerm extractEntry scss/mixins/_pagination.scss
+619 silly gunzTarPerm extractEntry scss/mixins/_reset-text.scss
+620 silly gunzTarPerm extractEntry scss/mixins/_resize.scss
+621 silly gunzTarPerm extractEntry scss/mixins/_screen-reader.scss
+622 silly gunzTarPerm extractEntry scss/mixins/_size.scss
+623 silly gunzTarPerm extractEntry scss/mixins/_table-row.scss
+624 silly gunzTarPerm extractEntry scss/mixins/_text-emphasis.scss
+625 silly gunzTarPerm extractEntry scss/mixins/_text-hide.scss
+626 silly gunzTarPerm extractEntry scss/mixins/_text-truncate.scss
+627 silly gunzTarPerm extractEntry scss/mixins/_transition.scss
+628 silly gunzTarPerm extractEntry scss/mixins/_visibility.scss
+629 silly gunzTarPerm extractEntry scss/utilities/_float.scss
+630 silly gunzTarPerm extractEntry scss/utilities/_align.scss
+631 silly gunzTarPerm extractEntry scss/utilities/_borders.scss
+632 silly gunzTarPerm extractEntry scss/utilities/_clearfix.scss
+633 silly gunzTarPerm extractEntry scss/utilities/_display.scss
+634 silly gunzTarPerm extractEntry scss/utilities/_embed.scss
+635 silly gunzTarPerm extractEntry scss/utilities/_flex.scss
+636 silly gunzTarPerm extractEntry scss/utilities/_background.scss
+637 silly gunzTarPerm extractEntry scss/utilities/_position.scss
+638 silly gunzTarPerm extractEntry scss/utilities/_screenreaders.scss
+639 silly gunzTarPerm extractEntry scss/utilities/_shadows.scss
+640 silly gunzTarPerm extractEntry scss/utilities/_sizing.scss
+641 silly gunzTarPerm extractEntry scss/utilities/_spacing.scss
+642 silly gunzTarPerm extractEntry scss/utilities/_text.scss
+643 silly gunzTarPerm extractEntry scss/utilities/_visibility.scss
+644 silly lockFile 587d45d9-nlin-npm-bootstrap-4-1-3-package tar:///home/nlin/.npm/bootstrap/4.1.3/package
+645 silly lockFile 587d45d9-nlin-npm-bootstrap-4-1-3-package tar:///home/nlin/.npm/bootstrap/4.1.3/package
+646 silly lockFile 4954cc4e--npm-bootstrap-4-1-3-package-tgz tar:///home/nlin/.npm/bootstrap/4.1.3/package.tgz
+647 silly lockFile 4954cc4e--npm-bootstrap-4-1-3-package-tgz tar:///home/nlin/.npm/bootstrap/4.1.3/package.tgz
+648 verbose chmod /home/nlin/.npm/bootstrap/4.1.3/package.tgz 644
+649 verbose chown /home/nlin/.npm/bootstrap/4.1.3/package.tgz [ 1000, 1000 ]
+650 silly lockFile 73ad31b5-rg-bootstrap-bootstrap-4-1-3-tgz https://registry.npmjs.org/bootstrap/-/bootstrap-4.1.3.tgz
+651 silly lockFile 73ad31b5-rg-bootstrap-bootstrap-4-1-3-tgz https://registry.npmjs.org/bootstrap/-/bootstrap-4.1.3.tgz
+652 silly lockFile 8860195b-bootstrap-4-1-3 bootstrap@4.1.3
+653 silly lockFile 8860195b-bootstrap-4-1-3 bootstrap@4.1.3
+654 verbose url raw @fortawesome/fontawesome-free/5.3.1
+655 verbose url resolving [ 'https://registry.npmjs.org/',
+655 verbose url resolving   './%40fortawesome/fontawesome-free/5.3.1' ]
+656 verbose url resolved https://registry.npmjs.org/%40fortawesome/fontawesome-free/5.3.1
+657 info trying registry request attempt 1 at 21:23:51
+658 http GET https://registry.npmjs.org/%40fortawesome/fontawesome-free/5.3.1
+659 http 401 https://registry.npmjs.org/%40fortawesome/fontawesome-free/5.3.1
+660 error TypeError: Cannot call method 'match' of undefined
+660 error     at RegClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:119:29)
+660 error     at cb (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:158:9)
+660 error     at RegClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+660 error     at Request.self.callback (/usr/lib/nodejs/request/index.js:148:22)
+660 error     at Request.EventEmitter.emit (events.js:98:17)
+660 error     at Request.<anonymous> (/usr/lib/nodejs/request/index.js:896:14)
+660 error     at Request.EventEmitter.emit (events.js:117:20)
+660 error     at IncomingMessage.<anonymous> (/usr/lib/nodejs/request/index.js:847:12)
+660 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+660 error     at _stream_readable.js:920:16
+661 error If you need help, you may report this log at:
+661 error     <http://github.com/isaacs/npm/issues>
+661 error or email it to:
+661 error     <npm-@googlegroups.com>
+662 error System Linux 4.4.0-17134-Microsoft
+663 error command "/usr/bin/nodejs" "/usr/bin/npm" "update"
+664 error cwd /mnt/c/cfg2018/team-6/startbootstrap-clean-blog-gh-pages
+665 error node -v v0.10.25
+666 error npm -v 1.3.10
+667 error type non_object_property_call
+668 verbose exit [ 1, true ]
