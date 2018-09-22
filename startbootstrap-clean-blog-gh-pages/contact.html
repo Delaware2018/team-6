@@ -103,28 +103,28 @@
             <div class="control-group">
               <div class="form-group col-xs-12 floating-label-form-group controls">
                 <label>Hometown</label>
-                <input type="tel" class="form-control" placeholder="Hometown" id="phone" required data-validation-required-message="Please enter your phone number.">
+                <input type="tel" class="form-control" placeholder="Hometown" id="hometown" required data-validation-required-message="Please enter your hometown.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group col-xs-12 floating-label-form-group controls">
                 <label>Interests</label>
-                <input type="tel" class="form-control" placeholder="Interests" id="phone" required data-validation-required-message="Please enter your phone number.">
+                <input type="tel" class="form-control" placeholder="Interests" id="interests" required data-validation-required-message="Please enter your interviews.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group col-xs-12 floating-label-form-group controls">
                 <label>Hobbies</label>
-                <input type="tel" class="form-control" placeholder="Hobbies" id="phone" required data-validation-required-message="Please enter your phone number.">
+                <input type="tel" class="form-control" placeholder="Hobbies" id="hobbies" required data-validation-required-message="Please enter your hobbies.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group col-xs-12 floating-label-form-group controls">
                 <label>Occupation</label>
-                <input type="tel" class="form-control" placeholder="Occupation" id="phone" required data-validation-required-message="Please enter your phone number.">
+                <input type="tel" class="form-control" placeholder="Occupation" id="occupation" required data-validation-required-message="Please enter your occupation.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
@@ -138,12 +138,8 @@
             <br>
             <div id="success"></div>
             <div class="form-group">
-              <script>
-                function doStuff(){
-                    console.log('stuff happened')
-                }
-              </script>
-              <button class="btn btn-primary" id="sendMessageButton" onclick="doStuff()">Send</button>
+              <script src="js/upload_csv.js"></script>
+              <button class="btn btn-primary" id="sendMessageButton" onclick="upload_info()">Send</button>
             </div>
           </form>
         </div>
@@ -188,6 +184,7 @@
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
+
 
     <!-- Custom scripts for this template -->
     <script src="js/clean-blog.min.js"></script>
