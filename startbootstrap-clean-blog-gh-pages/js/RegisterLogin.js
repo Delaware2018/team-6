@@ -22,6 +22,7 @@ $(function() {
       data.email = email;
       data.password = password;
 
+
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       $.ajax({
