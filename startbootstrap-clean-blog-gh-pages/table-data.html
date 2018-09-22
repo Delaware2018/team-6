@@ -81,111 +81,70 @@
 
 
 
-<header class="masthead" style="background-image: url('img/connections.jpg')">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <div class="page-heading">
-          <h1>Admin Page</h1>
-          <span class="subheading">Select who you would like to connect!</span>
-            <!-- <span class="subheading">Want to get involved? Be a sidekick to our wonderful B+ Heroes!</span> -->
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-
-
-
-
-
-
-    <!-- Main Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <p align="center">Match a B Positive Hero to a B Positive Sidekick!</p>
-          <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
-          <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
-          <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
-
-          <div class="row1">
-            <div class="column1">
-              <p>Filters:</p>
-            </div>
-            <div class="column2">
-              <form>
-                <input type="checkbox" name="location" value="Location"> Location<br>
-                <input type="checkbox" name="age" value="Age"> Age <br>
-                <input type="checkbox" name="involvement" value="Involvement" checked> Level of Involvement<br><br>
-              </form>
-            </div>
-            <div class="column2" >
-              <form>
-                <select class="form-control" id="location_filter" >
-                  <option>New York City</option>
-                  <option>Philadelphia</option>
-                  <option>Wilmington</option>
-                  <option>Other</option>
-                </select>
-                <div class="row2">
-                  <div class="column3">
-                    <input type="text" name="age_low" value="Minimum" style="width: 100%;">
-                  </div>
-                  <div class="column3">
-                    <input type="text" name="age_high" value="Maximum" style="width: 100%;">
-                  </div>
-
-                </div>
-                <select class="form-control" id="age_filter">
-                  <option>High</option>
-                  <option>Medium</option>
-                  <option>Low</option>
-                  <option>None</option>
-                </select><br>
-              </form>
-            </div>
-          </div>
-
-
-          <div class="row" style="padding-left: 15px; padding-right: 15px;">
-            <div class="column" style="width:50%;">
-              <div class="form-group">
-                <label for="hero_select">Select Hero:</label>
-                <select class="form-control" id="hero_select">
-                  <option>John Smith</option>
-                  <option>Ben Johnson</option>
-                  <option>Walter Jackson</option>
-                  <option>Jeffrey Alderson</option>
-                </select>
-              </div>
-            </div>
-            <div class="column" style="width:50%;">
-              <div class="form-group">
-                <label for="sidekick_select">Select Sidekick:</label>
-                <select class="form-control" id="sidekick_select">
-                  <option>John Smith</option>
-                  <option>Ben Johnson</option>
-                  <option>Walter Jackson</option>
-                  <option>Jeffrey Alderson</option>
-                </select>
+      <header class="masthead" style="background-image: url('img/connections.jpg')">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+              <div class="page-heading">
+                <h1>Connections</h1>
+                <span class="subheading">View who has been connected!</span>
+                  <!-- <span class="subheading">Want to get involved? Be a sidekick to our wonderful B+ Heroes!</span> -->
               </div>
             </div>
           </div>
+        </div>
+      </header>
 
-          <br>
 
-            <div id="success"></div>
-            <div class="form-group">
-              <script src="js/upload_csv.js"></script>
-              <button class="btn btn-primary" id="applyChange" onclick="upload_info()">Apply Change</button>
-              <button class="btn btn-primary" id="submitChange" onclick="upload_info()">Submit All Changes</button>
-            </div>
-          </form>
+      <!-- Main Content -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <p align="center">View the current hero-sidekick matches!</p>
+            <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
+            <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
+            <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
+            <br>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
+
+         
+       <div class="container">
+        <table id="dt-table">
+          <thead>
+            <tr>
+              <th>Hero</th>
+              <th>Sidekick</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John Smith</td>
+              <td>Sally Wiggins</td>
+            </tr>
+            <tr>
+              <td>David Jackson</td>
+              <td>Billy Bob</td>
+            </tr>
+            <tr>
+              <td>Wilson Hemsworth</td>
+              <td>Johnny Kingston</td>
+            </tr>
+            <tr>
+              <td>Jackie Johnson</td>
+              <td>Jill Marshall</td>
+            </tr>
+            <tr>
+              <td>Stephanie Bobcat</td>
+              <td>Jeffrey Adams</td>
+            </tr>
+          </tbody>
+        </table>
+        <div id="chart"></div>
+      </div>
 
 
     <hr>
