@@ -33,7 +33,17 @@ app.post('/apply', async (req, res) => {
 
     const jsonObj = req.body;
 
-    console.log(jsonObj.first);
+    console.log('hello');
+    var data = {
+        name: jsonObj.name,
+        email: jsonObj.email,
+        phone: jsonObj.phone,
+        city: jsonObj.city
+    };
+
+    console.log(jsonObj.name);
+    var filename = 'db/' + jsonObj.name + '-app.json';
+    fs.writeFileSync(filename, JSON.stringify(data));
 
     res.send(jsonObj);
     //const file = fs.readFileSync('', )
