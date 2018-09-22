@@ -1,3 +1,3 @@
-# Team Seventeen
+# Team Six
 
 Keeping alumni engaged in B+
