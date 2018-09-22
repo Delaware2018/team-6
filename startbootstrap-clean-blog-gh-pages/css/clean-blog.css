@@ -499,3 +499,9 @@ footer .copyright {
   max-height: 100%;
   width: 1130px;
 }
+
+table {
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
