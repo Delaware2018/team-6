@@ -1,6 +1,16 @@
-
+const fs = require('fs');
 
 function upload_info(){
-    console.log($('#name').val());
-    console.log($('#hometown').val());
+
+    let student = {
+        name: $('#name').val(),
+        phone: $('#phone').val(),
+        hometown: $('#hometown').val(),
+        interests: $('#interests').val(),
+        occupation: $('#occupation').val(),
+    };
+
+    let data = JSON.stringify(student);
+    fs.writeFileSync('student-2.json', data);
+
 }
