@@ -22,6 +22,32 @@
     <!-- Custom styles for this template -->
     <link href="css/clean-blog.css" rel="stylesheet">
 
+    <style>
+      .column1 {
+      float: left;
+      width: 20%;
+      }
+      .column2 {
+        float: left;
+        width: 40%;
+      }
+      .column3 {
+        float: left;
+        width: 50%;
+      }
+      /*input, textarea {*/
+        /*width: 100%;*/
+        /*display:block;*/
+      /*}*/
+
+      /* Clear floats after the columns */
+      .row1:after {
+      content: "";
+      display: table;
+      clear: both;
+      }
+    </style>
+
   </head>
 
   <body>
@@ -29,7 +55,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="contact.html">Apply Now</a>
+        <a class="navbar-brand" href="apply.html">Apply Now</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -43,7 +69,7 @@
               <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="admin-pages.html">Admin</a>
+              <a class="nav-link" href="admin-page.html">Admin</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="login_register.html">Login/Register</a>
@@ -54,115 +80,22 @@
     </nav>
 
 
-    <header class="masthead">
 
-    <div class="container">
-
-      <div class="mySlides fade">
-          <div class="numbertext">1 / 14</div>
-          <img src="img/heros-schools-1.jpg" style="width: 1100px; height: 500px;" align = "middle">
-      </div>
-
-      <div class="mySlides fade">
-          <div class="numbertext">2 / 14</div>
-          <img src="img/heros-schools-2.jpg" style="width: 1100px; height: 500px;" align = "middle">
-      </div>
-
-      <div class="mySlides fade">
-          <div class="numbertext">3 / 14</div>
-          <img src="img/heros-schools-3.jpg" style="width: 1100px; height: 500px;" align = "middle">
-      </div>
-
-      <div class="mySlides fade">
-          <div class="numbertext">4 / 14</div>
-          <img src="img/heros-schools-4.jpg" style="width: 1100px; height: 500px;" align = "middle">
-      </div>
-
-      <div class="mySlides fade">
-          <div class="numbertext">5 / 14</div>
-          <img src="img/heros-schools-5.jpg" style="width: 1100px; height: 500px;" align = "middle">
-      </div>
-
-      <div class="mySlides fade">
-          <div class="numbertext">6 / 14</div>
-          <img src="img/heros-schools-6.jpg" style="width: 1100px; height: 500px;" align = "middle">
-      </div>
-
-      <div class="mySlides fade">
-          <div class="numbertext">7 / 14</div>
-          <img src="img/heros-schools-7.jpg" style="width: 1100px; height: 500px;" align = "middle">
-      </div>
-
-      <div class="mySlides fade">
-          <div class="numbertext">8 / 14</div>
-          <img src="img/heros-schools-8.jpg" style="width: 1100px; height: 500px;" align = "middle">
-      </div>
-
-      <div class="mySlides fade">
-          <div class="numbertext">9 / 14</div>
-          <img src="img/heros-schools-9.jpg" style="width: 1100px; height: 500px;" align = "middle">
-      </div>
-
-      <div class="mySlides fade">
-          <div class="numbertext">10 / 14</div>
-          <img src="img/heros-schools-10.jpg" style="width: 1100px; height: 500px;" align = "middle">
-      </div>
-
-      <div class="mySlides fade">
-          <div class="numbertext">11 / 14</div>
-          <img src="img/heros-schools-11.jpg" style="width: 1100px; height: 500px;" align = "middle">
-      </div>
-
-      <div class="mySlides fade">
-          <div class="numbertext">12 / 14</div>
-          <img src="img/heros-schools-12.jpg" style="width: 1100px; height: 500px;" align = "middle">
-      </div>
-
-      <div class="mySlides fade">
-          <div class="numbertext">13 / 14</div>
-          <img src="img/heros-schools-13.jpg" style="width: 1100px; height: 500px;" align = "middle">
-      </div>
-
-      <div class="mySlides fade">
-          <div class="numbertext">14 / 14</div>
-          <img src="img/heros-schools-14.jpg" style="width: 1100px; height: 500px;" align = "middle">
-      </div>
-
-    </div>
-
-<div class="overlay">
-
+<header class="masthead" style="background-image: url('img/connections.jpg')">
+  <div class="overlay"></div>
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        <div class="site-heading">
+        <div class="page-heading">
           <h1>Admin Page</h1>
           <span class="subheading">Select who you would like to connect!</span>
+            <!-- <span class="subheading">Want to get involved? Be a sidekick to our wonderful B+ Heroes!</span> -->
         </div>
       </div>
     </div>
   </div>
-
-</div>
 </header>
 
-
-<div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-</div>
 
 
 
@@ -177,15 +110,40 @@
           <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
           <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
 
-          <div class="row" style="padding-left: 15px; padding-right: 15px;">
-            <div class="column" style="padding-right: 15px">
+          <div class="row1">
+            <div class="column1">
               <p>Filters:</p>
             </div>
-            <div class="column">
+            <div class="column2">
               <form>
                 <input type="checkbox" name="location" value="Location"> Location<br>
-                <input type="checkbox" name="age" value="Age"> Age<br>
+                <input type="checkbox" name="age" value="Age"> Age <br>
                 <input type="checkbox" name="involvement" value="Involvement" checked> Level of Involvement<br><br>
+              </form>
+            </div>
+            <div class="column2" >
+              <form>
+                <select class="form-control" id="location_filter" >
+                  <option>New York City</option>
+                  <option>Philadelphia</option>
+                  <option>Wilmington</option>
+                  <option>Other</option>
+                </select>
+                <div class="row2">
+                  <div class="column3">
+                    <input type="text" name="age_low" value="Minimum" style="width: 100%;">
+                  </div>
+                  <div class="column3">
+                    <input type="text" name="age_high" value="Maximum" style="width: 100%;">
+                  </div>
+
+                </div>
+                <select class="form-control" id="age_filter">
+                  <option>High</option>
+                  <option>Medium</option>
+                  <option>Low</option>
+                  <option>None</option>
+                </select><br>
               </form>
             </div>
           </div>
@@ -267,33 +225,11 @@
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+    <script src="js/app_submit.js"></script>
 
 
     <!-- Custom scripts for this template -->
     <script src="js/clean-blog.min.js"></script>
-    <script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-</script>
-
   </body>
 
 </html>
