@@ -6,7 +6,7 @@ const port = 3000
 app.get('/', (req, res) => res.send('Hello World!'))
 
 app.get('/register', async (req, res) => {
-cont jsonObj = JSON.parse( req.body )
+const jsonObj = JSON.parse( req.body )
 const file = fs.readFileSync('', )
 });
 
