@@ -17,12 +17,13 @@
     "fetchSpec": "5.3.1"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.3.1.tgz",
   "_shasum": "5466b8f31c1f493a96754c1426c25796d0633dd9",
   "_spec": "@fortawesome/fontawesome-free@5.3.1",
-  "_where": "/Users/DANGER_DAVID/Sites/startbootstrap-themes/startbootstrap-clean-blog",
+  "_where": "C:\\cfg2018\\team-6\\startbootstrap-clean-blog-gh-pages",
   "author": {
     "name": "Dave Gandy",
     "email": "dave@fontawesome.com",
