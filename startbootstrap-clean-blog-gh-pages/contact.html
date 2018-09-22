@@ -29,7 +29,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="apply-now.html">Get Involved</a>
+        <a class="navbar-brand" href="contact.html">Apply Now</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -46,6 +46,9 @@
               <a class="nav-link" href="admin-page.html">Admin</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="table-data.html">Matches</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="login_register.html">Login/Register</a>
             </li>
           </ul>
@@ -53,14 +56,14 @@
       </div>
     </nav>
 
-    <header class="masthead" style="background-image: url('img/heros-schools-11.jpg')">
+    <header class="masthead" style="background-image: url('img/heros-special-8.jpg')">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="page-heading">
-              <h1>Get Involved!</h1>
-              <span class="subheading">Find ways to become a sidekick to a wornderful hero!</span>
+              <h1>Get Involved</h1>
+              <span class="subheading">Find wass to become a sidekick to a wornderful hero!</span>
                 <!-- <span class="subheading">Want to get involved? Be a sidekick to our wonderful B+ Heroes!</span> -->
             </div>
           </div>
@@ -73,11 +76,11 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <p>Please fill out this form and we will contact you as soon as we can!</p>
+          <p>Please fill out this form and we will contact you as soon as we can</p>
           <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
           <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
           <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
-          <form name="sentMessage" id="appForm" novalidate>
+          <form name="sentMessage" id="contactForm" novalidate>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label>Name</label>
@@ -101,8 +104,22 @@
             </div>
             <div class="control-group">
               <div class="form-group col-xs-12 floating-label-form-group controls">
-                <label>Current City</label>
-                <input type="tel" class="form-control" placeholder="Current City" id="city" required data-validation-required-message="Please enter your current city.">
+                <label>Hometown</label>
+                <input type="tel" class="form-control" placeholder="Hometown" id="hometown" required data-validation-required-message="Please enter your hometown.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <label>Interests</label>
+                <input type="tel" class="form-control" placeholder="Interests" id="interests" required data-validation-required-message="Please enter your interviews.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <label>Hobbies</label>
+                <input type="tel" class="form-control" placeholder="Hobbies" id="hobbies" required data-validation-required-message="Please enter your hobbies.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
@@ -114,30 +131,9 @@
               </div>
             </div>
             <div class="control-group">
-              <div class="form-group col-xs-12 floating-label-form-group controls">
-                <label>Interests</label>
-                <input type="tel" class="form-control" placeholder="Interests/hobbies" id="int_hobs" required data-validation-required-message="Please enter your interests/hobbies.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group col-xs-12 floating-label-form-group controls">
-                <label>Occupation</label>
-                <input type="tel" class="form-control" placeholder="Alma Mater" id="alma_mater" required data-validation-required-message="Please enter your alma mater.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group col-xs-12 floating-label-form-group controls">
-                <label>Occupation</label>
-                <input type="tel" class="form-control" placeholder="Level of Past Involvement" id="involvement" required data-validation-required-message="Please enter your past involvement.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label>Message</label>
-                <textarea rows="5" class="form-control" placeholder="Additional Info" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
@@ -188,7 +184,7 @@
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/app_submit.js"></script>
+    <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/clean-blog.min.js"></script>

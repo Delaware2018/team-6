@@ -22,6 +22,32 @@
     <!-- Custom styles for this template -->
     <link href="css/clean-blog.css" rel="stylesheet">
 
+    <style>
+      .column1 {
+      float: left;
+      width: 20%;
+      }
+      .column2 {
+        float: left;
+        width: 40%;
+      }
+      .column3 {
+        float: left;
+        width: 50%;
+      }
+      /*input, textarea {*/
+        /*width: 100%;*/
+        /*display:block;*/
+      /*}*/
+
+      /* Clear floats after the columns */
+      .row1:after {
+      content: "";
+      display: table;
+      clear: both;
+      }
+    </style>
+
   </head>
 
   <body>
@@ -29,7 +55,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="apply-now.html">Get Involved</a>
+        <a class="navbar-brand" href="contact.html">Apply Now</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -56,42 +82,95 @@
       </div>
     </nav>
 
-    <header class="masthead" style="background-image: url('img/heros-special-8.jpg')">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="page-heading">
-              <h1>Apply Now!</h1>
-              <span class="subheading">I am applying to be a...</span>
-              <div style="text-align: center">  
-              <br/>
-              <a href="applyhero.html" class="btn btn-info" role="button">&nbsp; &nbsp; Hero&nbsp; &nbsp; </a>
-              
-                &nbsp; 
-                 &nbsp; 
-                  &nbsp; 
-                   &nbsp; 
-                    &nbsp; 
-             <a href="applysidekick.html" class="btn btn-info" role="button">Sidekick</a>
-                  </div>
-                <!-- <span class="subheading">Want to get involved? Be a sidekick to our wonderful B+ Heroes!</span> -->
+
+
+      <header class="masthead" style="background-image: url('img/connections.jpg')">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+              <div class="page-heading">
+                <h1>Connections</h1>
+                <span class="subheading">View who has been connected!</span>
+                  <!-- <span class="subheading">Want to get involved? Be a sidekick to our wonderful B+ Heroes!</span> -->
+              </div>
             </div>
           </div>
         </div>
+      </header>
+
+
+      <!-- Main Content -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <p align="center">View the current hero-sidekick matches!</p>
+            <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
+            <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
+            <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
+            <br>
+            </form>
+          </div>
+        </div>
       </div>
-    </header>
+
+         
+       <div class="container">
+        <table id="dt-table">
+          <thead>
+            <tr>
+              <th>Hero</th>
+              <th>Sidekick</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John Smith</td>
+              <td>Sally Wiggins</td>
+            </tr>
+            <tr>
+              <td>David Jackson</td>
+              <td>Billy Bob</td>
+            </tr>
+            <tr>
+              <td>Wilson Hemsworth</td>
+              <td>Johnny Kingston</td>
+            </tr>
+            <tr>
+              <td>Jackie Johnson</td>
+              <td>Jill Marshall</td>
+            </tr>
+            <tr>
+              <td>Stephanie Bobcat</td>
+              <td>Jeffrey Adams</td>
+            </tr>
+            <tr>
+              <td>Stephanie Bobcat</td>
+              <td>Jeffrey Adams</td>
+            </tr>
+            <tr>
+              <td>Hugh Jackson</td>
+              <td>Stan Lee</td>
+            </tr>
+            <tr>
+              <td>Adam Scott</td>
+              <td>Danny Durano</td>
+            </tr>
+            <tr>
+              <td>Lindsey Kaitlin</td>
+              <td>Kaity Jackson</td>
+            </tr>
+            <tr>
+              <td>Jack Kong</td>
+              <td>Jill Alfredo</td>
+            </tr>
+          </tbody>
+        </table>
+        <div id="chart"></div>
+      </div>
 
 
-    <!-- Main Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
-          <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
-          <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
-          
-    
+    <hr>
 
     <!-- Footer -->
     <footer>
@@ -124,11 +203,12 @@
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
-    <!--<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>-->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/app_submit.js"></script>
+    <script src="js/contact_me.js"></script>
+
 
     <!-- Custom scripts for this template -->
     <script src="js/clean-blog.min.js"></script>
