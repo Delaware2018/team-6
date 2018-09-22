@@ -22,6 +22,32 @@
     <!-- Custom styles for this template -->
     <link href="css/clean-blog.css" rel="stylesheet">
 
+    <style>
+      .column1 {
+      float: left;
+      width: 20%;
+      }
+      .column2 {
+        float: left;
+        width: 40%;
+      }
+      .column3 {
+        float: left;
+        width: 50%;
+      }
+      /*input, textarea {*/
+        /*width: 100%;*/
+        /*display:block;*/
+      /*}*/
+
+      /* Clear floats after the columns */
+      .row1:after {
+      content: "";
+      display: table;
+      clear: both;
+      }
+    </style>
+
   </head>
 
   <body>
@@ -84,15 +110,40 @@
           <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
           <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
 
-          <div class="row" style="padding-left: 15px; padding-right: 15px;">
-            <div class="column" style="padding-right: 15px">
+          <div class="row1">
+            <div class="column1">
               <p>Filters:</p>
             </div>
-            <div class="column">
+            <div class="column2">
               <form>
                 <input type="checkbox" name="location" value="Location"> Location<br>
-                <input type="checkbox" name="age" value="Age"> Age<br>
+                <input type="checkbox" name="age" value="Age"> Age <br>
                 <input type="checkbox" name="involvement" value="Involvement" checked> Level of Involvement<br><br>
+              </form>
+            </div>
+            <div class="column2" >
+              <form>
+                <select class="form-control" id="location_filter" >
+                  <option>New York City</option>
+                  <option>Philadelphia</option>
+                  <option>Wilmington</option>
+                  <option>Other</option>
+                </select>
+                <div class="row2">
+                  <div class="column3">
+                    <input type="text" name="age_low" value="Minimum" style="width: 100%;">
+                  </div>
+                  <div class="column3">
+                    <input type="text" name="age_high" value="Maximum" style="width: 100%;">
+                  </div>
+
+                </div>
+                <select class="form-control" id="age_filter">
+                  <option>High</option>
+                  <option>Medium</option>
+                  <option>Low</option>
+                  <option>None</option>
+                </select><br>
               </form>
             </div>
           </div>
