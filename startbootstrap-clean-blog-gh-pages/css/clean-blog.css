@@ -10,10 +10,6 @@ body {
   font-family: 'Lora', 'Times New Roman', serif;
 }
 
-.column {
-  width: 200px;
-}
-
 p {
   line-height: 1.5;
   margin: 30px 0;
@@ -197,7 +193,6 @@ header.masthead .overlay {
   background-color: #000;
   opacity: 0.5;
 }
-
 
 header.masthead .page-heading,
 header.masthead .post-heading,
@@ -430,11 +425,6 @@ footer .copyright {
   padding: 25px 35px;
 }
 
-
-
-
-
-
 .mySlides {
   display: none;
   top: 50px;
@@ -515,10 +505,3 @@ footer .copyright {
   max-height: 100%;
   width: 1130px;
 }
-
-/* .overlay {
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
