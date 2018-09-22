@@ -1,21 +1,30 @@
 const express = require('express');
-const fs = require('fs');
-const app = express();
-const port = 3000;
+const bodyParser = require('body-parser');
+const fs = require('fs')
+const cors = require('cors');
+const app = express()
+const port = 3001
 
-app.get('/', (req, res) => res.send('Hello World!'));
+const corsOptions = {
+  origin: 'http://localhost:3000',
+  optionsSuccessStatus: 200
+};
 
-app.get('/register', async (req, res) => {
-    const jsonObj = JSON.parse( req.body );
-    const file = fs.readFileSync('', )
+app.use(cors(corsOptions));
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded( { extended: false } ));
+
+app.get('/', (req, res) => res.send('Hello World!'))
+
+app.post('/register', async (req, res) => {
+
+  const jsonObj = req.body
+
+  console.log(jsonObj.first);
+
+  res.send(jsonObj);
+  //const file = fs.readFileSync('', )
 });
 
-app.post('/apply', async (req, res) => {
-    // const jsonObj = JSON.parse( req.body );
-    // const file = fs.readFileSync('', );
-    // res.send(jsonObj.name);
-    const file = fs.readFileSync('package.json', );
-    fs.writeFileSync('wow.json', file)
-});
-
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
