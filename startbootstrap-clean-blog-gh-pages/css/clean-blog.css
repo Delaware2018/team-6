@@ -137,6 +137,27 @@ img::-moz-selection {
 }
 
 @media only screen and (min-width: 992px) {
+  #secondaryNav {
+    border-bottom: 1px solid transparent;
+    background: transparent;
+  }
+  #secondaryNav .navbar-brand {
+    padding: 10px 20px;
+    color: #000;
+  }
+  #secondaryNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  #secondaryNav .navbar-nav > li.nav-item > a {
+    padding: 10px 20px;
+    color: #000;
+  }
+  #secondaryNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+@media only screen and (min-width: 992px) {
   #mainNav {
     -webkit-transition: background-color 0.2s;
     transition: background-color 0.2s;
@@ -177,6 +198,15 @@ img::-moz-selection {
 
 header.masthead {
   margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+
+header.mad {
+  margin-bottom: 20px;
   background: no-repeat center center;
   background-color: #868e96;
   background-attachment: scroll;
