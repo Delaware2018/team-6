@@ -1,9 +1,9 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const fs = require('fs')
+const fs = require('fs');
 const cors = require('cors');
-const app = express()
-const port = 3001
+const app = express();
+const port = 3001;
 
 const corsOptions = {
   origin: 'http://localhost:3000',
@@ -25,6 +25,16 @@ app.post('/register', async (req, res) => {
 
   res.send(jsonObj);
   //const file = fs.readFileSync('', )
+});
+
+app.post('/apply', async (req, res) => {
+
+    const jsonObj = req.body;
+
+    console.log(jsonObj.first);
+
+    res.send(jsonObj);
+    //const file = fs.readFileSync('', )
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
