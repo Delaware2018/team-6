@@ -17,9 +17,36 @@
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <!-- Custom styles for this template -->
     <link href="css/clean-blog.css" rel="stylesheet">
+
+    <style>
+      .column1 {
+      float: left;
+      width: 20%;
+      }
+      .column2 {
+        float: left;
+        width: 40%;
+      }
+      .column3 {
+        float: left;
+        width: 50%;
+      }
+      /*input, textarea {*/
+        /*width: 100%;*/
+        /*display:block;*/
+      /*}*/
+
+      /* Clear floats after the columns */
+      .row1:after {
+      content: "";
+      display: table;
+      clear: both;
+      }
+    </style>
 
   </head>
 
@@ -28,7 +55,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="apply-now.html">Get Involved</a>
+        <a class="navbar-brand" href="contact.html">Apply Now</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -56,36 +83,72 @@
     </nav>
 
 
-<header class="masthead" style="background-image: url('img/heros-special-1.jpg')">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <div class="page-heading">
-          <h1>About</h1>
-          <span class="subheading">It's not a grade. It's an attitutde.</span>
-            <!-- <span class="subheading">Want to get involved? Be a sidekick to our wonderful B+ Heroes!</span> -->
+
+      <header class="masthead" style="background-image: url('img/connections.jpg')">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+              <div class="page-heading">
+                <h1>Connections</h1>
+                <span class="subheading">View who has been connected!</span>
+                  <!-- <span class="subheading">Want to get involved? Be a sidekick to our wonderful B+ Heroes!</span> -->
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</header>
+      </header>
 
 
-    <!-- Main Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <h1>Andrew is the original B+ Hero</h1>
-          <p>For the way he lived his life, for the way he battled against the odds, and for the way he continues to inspire thousands, Andrew is our Hero.</p>
-          <p><b>And we believe that every child who has battled cancer, or is still in the fight, is a Hero — a B+ Hero.</b></p>
-          <p>We honor each child with cancer, and their siblings, so that everyone knows how special they are. We do this through our Heroes program, which pairs these children, the <b>heroes</b>, with a group of mentors, the <b>sidekicks</b>.<p>
-          <h1> About B Positive </h1>
-          <p>The Andrew McDonough B+ Foundation® honors the life of Andrew McDonough. Andrew battled leukemia, septic shock and complications of childhood cancer for 167 days before passing away on July 14, 2007, at the age of 14. Andrew’s B+ blood type became his family’s and friends’ motto throughout his fight against childhood cancer — to “Be Positive”.</p>
-          <p>The B+ Foundation® is about Kids Helping Kids Fight Cancer™ — raising money through dance marathons, 5Ks, T-shirt sales and more, to provide financial and emotional support to families of children with cancer nationwide. The B+ Foundation® also funds critical, cutting-edge childhood cancer research.</p>
+      <!-- Main Content -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <p align="center">View the current hero-sidekick matches!</p>
+            <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
+            <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
+            <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
+            <br>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
+
+         
+       <div class="container">
+        <table id="dt-table">
+          <thead>
+            <tr>
+              <th>Hero</th>
+              <th>Sidekick</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John Smith</td>
+              <td>Sally Wiggins</td>
+            </tr>
+            <tr>
+              <td>David Jackson</td>
+              <td>Billy Bob</td>
+            </tr>
+            <tr>
+              <td>Wilson Hemsworth</td>
+              <td>Johnny Kingston</td>
+            </tr>
+            <tr>
+              <td>Jackie Johnson</td>
+              <td>Jill Marshall</td>
+            </tr>
+            <tr>
+              <td>Stephanie Bobcat</td>
+              <td>Jeffrey Adams</td>
+            </tr>
+          </tbody>
+        </table>
+        <div id="chart"></div>
+      </div>
+
 
     <hr>
 
@@ -112,7 +175,7 @@
                 </a>
               </li>
             </ul>
-            <p class="copyright text-muted">Copyright &copy; Be Positive 2018</p>
+            <p class="copyright text-muted">Copyright &copy; Your Website 2018</p>
           </div>
         </div>
       </div>
@@ -122,10 +185,13 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+
     <!-- Custom scripts for this template -->
     <script src="js/clean-blog.min.js"></script>
-
-
   </body>
 
 </html>
