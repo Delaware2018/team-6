@@ -1,4 +1,4 @@
-/*!
+/*! 212529
  * Start Bootstrap - Clean Blog v5.0.1 (https://startbootstrap.com/template-overviews/clean-blog)
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/master/LICENSE)
@@ -6,7 +6,7 @@
 
 body {
   font-size: 20px;
-  color: #212529;
+  color: #000;
   font-family: 'Lora', 'Times New Roman', serif;
 }
 
@@ -34,7 +34,7 @@ h6 {
 }
 
 a {
-  color: #212529;
+  color: #000;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -161,13 +161,13 @@ img::-moz-selection {
     background-color: rgba(255, 255, 255, 0.9);
   }
   #mainNav.is-fixed .navbar-brand {
-    color: #212529;
+    color: #000;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
     color: #0085A1;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
-    color: #212529;
+    color: #000;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
     color: #0085A1;
@@ -182,7 +182,7 @@ img::-moz-selection {
 header.masthead {
   margin-bottom: 50px;
   background: no-repeat center center;
-  background-color: #868e96;
+  background-color: #000; //868e96
   background-attachment: scroll;
   position: relative;
   background-size: cover;
@@ -194,7 +194,7 @@ header.masthead .overlay {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #212529;
+  background-color: #000;
   opacity: 0.5;
 }
 
@@ -280,7 +280,7 @@ header.masthead .post-heading .meta a {
 }
 
 .post-preview > a {
-  color: #212529;
+  color: #000;
 }
 
 .post-preview > a:focus, .post-preview > a:hover {
@@ -308,7 +308,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > .post-meta > a {
   text-decoration: none;
-  color: #212529;
+  color: #000;
 }
 
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
