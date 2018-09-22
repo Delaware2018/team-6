@@ -82,40 +82,45 @@
           <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
           <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
 
-          <div class="form-group">
-          <label for="sel1">Select Hero:</label>
-              <select class="form-control" id="sel1">
-                <option>John Smith</option>
-                <option>Ben Johnson</option>
-                <option>Walter Jackson</option>
-                <option>Jeffrey Alderson</option>
-              </select>
+
+
+          <div class="row" style="padding-left: 15px; padding-right: 15px;">
+            <div class="column" style="width:50%;">
+              <div class="form-group">
+                <label for="hero_select">Select Hero:</label>
+                <select class="form-control" id="hero_select">
+                  <option>John Smith</option>
+                  <option>Ben Johnson</option>
+                  <option>Walter Jackson</option>
+                  <option>Jeffrey Alderson</option>
+                </select>
+              </div>
+            </div>
+            <div class="column" style="width:50%;">
+              <div class="form-group">
+                <label for="sidekick_select">Select Sidekick:</label>
+                <select class="form-control" id="sidekick_select">
+                  <option>John Smith</option>
+                  <option>Ben Johnson</option>
+                  <option>Walter Jackson</option>
+                  <option>Jeffrey Alderson</option>
+                </select>
+              </div>
+            </div>
           </div>
 
-          <div class="form-group">
-            <label for="sel1">Select Sidekick:</label>
-              <select class="form-control" id="sel1">
-                <option>John Smith</option>
-                <option>Ben Johnson</option>
-                <option>Walter Jackson</option>
-                <option>Jeffrey Alderson</option>
-              </select>
-          </div>
           <br>
           
             <div id="success"></div>
             <div class="form-group">
               <script src="js/upload_csv.js"></script>
-              <button class="btn btn-primary" id="sendMessageButton" onclick="upload_info()">Apply Change</button>
-              <button class="btn btn-primary" id="sendMessageButton" onclick="upload_info()">Submit All Changes</button>
+              <button class="btn btn-primary" id="applyChange" onclick="upload_info()">Apply Change</button>
+              <button class="btn btn-primary" id="submitChange" onclick="upload_info()">Submit All Changes</button>
             </div>
           </form>
         </div>
       </div>
     </div>
-
-
-    <div class="form-group">
       
 
     <hr>
