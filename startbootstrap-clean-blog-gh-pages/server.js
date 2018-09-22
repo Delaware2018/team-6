@@ -2,7 +2,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs');
 const cors = require('cors');
-<<<<<<< HEAD
 const app = express()
 const port = 3001
 
@@ -23,7 +22,9 @@ app.post('/register', async (req, res) => {
 
   const jsonObj = req.body
 
-  fs.appendFile('Mentors.csv', 'test', function (err) {
+  var line = jsonObj.first + "," + jsonObj.last + "," + jsonObj.email + "," + jsonObj.password + "\n";
+
+  fs.appendFile('Mentors.csv', line, function (err) {
     if (err) throw err;
     console.log('Saved!');
   });
